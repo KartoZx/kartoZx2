@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าหลักโพสต์</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="post-form">
+            <h2>โพสต์ข้อความ</h2>
+            <textarea id="post-text" placeholder="พิมพ์ข้อความ..."></textarea>
+            <input type="file" id="post-image" accept="image/*">
+            <button onclick="postMessage()">โพสต์</button>
+        </div>
+
+        <div id="posts" class="posts"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
